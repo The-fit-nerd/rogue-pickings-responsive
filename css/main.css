@@ -1,5 +1,4 @@
 /*****MOBILE*****/
-@media (min-width: 300px) {
 body {
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 	font-size: 1em;
@@ -53,6 +52,7 @@ header {
 	border-bottom: 3px solid #77a466;
 	margin: 0 auto;
 	flex-flow: row wrap;
+	width: 100%;
 }
 
 header h1 {
@@ -91,6 +91,7 @@ header nav ul li a{
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
+	width: 100%;
 }
 
 .main-image {
@@ -177,7 +178,6 @@ footer span {
 	color: #77a466;
 	font-size: .87em;
 }
-}
 
 /*****TABLET*****/
 @media (min-width: 768px) {
@@ -197,6 +197,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
+	width: 45%;
 }
 
 html {
@@ -455,6 +456,7 @@ header nav ul li a{
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
+	width: 100%;
 }
 
 .main-image {
