@@ -47,8 +47,8 @@ p {
 /*The widths are in a percentage!*/
 header {
 	display: flex;
-	justify-content: left;
-	align-items: left;
+	justify-content: center;
+	text-align: center;
 	border-bottom: 3px solid #77a466;
 	margin: 0 auto;
 	flex-flow: row wrap;
@@ -56,6 +56,7 @@ header {
 }
 
 header h1 {
+	width: 100%;
 	margin: 0;
 	padding: 38px 0;
 }
@@ -68,6 +69,7 @@ header nav {
 	padding: 46px 0;
 }
 header nav ul {
+	width: 100%;
 	margin: 0;
 	padding: 0;
 }
@@ -124,17 +126,12 @@ header nav ul li a{
 .section-one,
 .section-two,
 .section-three {
-	width: 33%;
+	width: 100%;
 	height: auto;
 }
 
 .section-one h3 {
 	padding: 10px 0;
-}
-
-.section-two {
-	border-left: 1px solid #eee;
-	border-right: 1px solid #eee;
 }
 
 .section-two h3,
@@ -171,6 +168,7 @@ footer {
 	margin: 0 auto;
 	text-align: center;
 	flex-flow: row wrap;
+	width: 100%;
 }
 footer span {
 	font-family: 'Galada', cursive;
@@ -230,14 +228,15 @@ p {
 /*The widths are in a percentage!*/
 header {
 	display: flex;
-	justify-content: left;
-	align-items: left;
+	justify-content: center;
+	text-align: center;
 	border-bottom: 3px solid #77a466;
 	margin: 0 auto;
 	flex-flow: row wrap;
 }
 
 header h1 {
+	width: 100%;
 	margin: 0;
 	padding: 38px 0;
 }
@@ -250,6 +249,7 @@ header nav {
 	padding: 46px 0;
 }
 header nav ul {
+	width: 100%;
 	margin: 0;
 	padding: 0;
 }
@@ -305,17 +305,12 @@ header nav ul li a{
 .section-one,
 .section-two,
 .section-three {
-	width: 33%;
+	width: 100%;
 	height: auto;
 }
 
 .section-one h3 {
 	padding: 10px 0;
-}
-
-.section-two {
-	border-left: 1px solid #eee;
-	border-right: 1px solid #eee;
 }
 
 .section-two h3,
@@ -352,6 +347,7 @@ footer {
 	margin: 0 auto;
 	text-align: center;
 	flex-flow: row wrap;
+	width: 100%;
 }
 footer span {
 	font-family: 'Galada', cursive;
@@ -369,7 +365,7 @@ body {
 	font-size: 1em;
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	text-align: center;	
 	flex-flow: row wrap;
 }
 
